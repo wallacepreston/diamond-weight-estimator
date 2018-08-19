@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Diamond Weight Estimator - Round Brilliant Cut</title>
+    <link rel="icon" href="favicon.ico">
+
+    <style>
+      
+    </style>
+    <script src="/js/index.js"></script>
+    
+  </head>
+  <body>
+    <div class="content">
+    <h1>Diamond Weight Estimator - Round Brilliant Cut</h1>
+    <div>
+      <form id="inputForm">
+        <hr/>
+        <h3>Measurements</h3>
+        Maximum Diameter (required):<br>
+        <input type="text" name="maxDia"/><br>
+        Minimum Diameter:<br>
+        <input type="text" name="minDia"><br>
+        Depth Measurement:<br>
+        <input type="text" name="depthMea"><br>
+        Depth Percentage:<br>
+        <input type="text" name="depthPerc"><br>
+        
+        
+      </form>
+      <div>
+        <br>
+        <input type="button" onclick="writeCaratToPage()" value="Calculate Weight"/>
+        <br/>
+        <br/>
+        <div id="caratBox"><br/></div>
+      </div>
+    </div>
+    </div>
+    <div id="footer"></div>
+  </body>
+</html>
